@@ -102,5 +102,5 @@ class Psr4Autoloader
 
 $autoloader = new Psr4Autoloader();
 $autoloader
-    ->add('Nfq\\Academy\\Homework\\', __DIR__.'/src/')
+    ->add('Nfq\\Academy\\Homework\\', __DIR__ . '/src/')
     ->register();
